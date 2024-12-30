@@ -63,15 +63,7 @@ The frontend will start on http://localhost:3000
 Access the web application in your browser:
 http://localhost:3000
 
-6. Project Structure
-hall-booking-system/
-├── backend/       Spring Boot backend
-├── frontend/      React frontend
-├── database/      SQL scripts (schema and sample data)
-│   ├── schema.sql
-│   ├── procedures.sql
-
-7. Usage
+6. Usage
 - Add Booking: Use the form to add a new booking  
 - View Bookings: See all bookings in a table format  
 - Update Booking: Modify details of an existing booking  
