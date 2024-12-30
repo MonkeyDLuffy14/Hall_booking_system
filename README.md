@@ -35,7 +35,7 @@ psql -U postgres -d hall_booking -f procedures.sql
 
 3. Set Up the Backend (Spring Boot)
 
-Navigate to the Backend Folder
+Navigate to the hallbooking Folder
 cd ../backend
 
 Update application.properties
@@ -49,7 +49,7 @@ The backend will start on http://localhost:8081
 
 4. Set Up the Frontend (React)
 
-Navigate to the Frontend Folder
+Navigate to the hall-booking-frontend Folder
 cd ../frontend
 
 Install Dependencies
