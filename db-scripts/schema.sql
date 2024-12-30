@@ -6,11 +6,11 @@ CREATE DATABASE hall_booking;
 
 -- Create the bookings table
 CREATE TABLE bookings (
-    booking_date date NOT NULL,
-    end_time time without time zone NOT NULL,
-    created_at timestamp without time zone,
-    booking_id integer NOT NULL,
-    start_time time without time zone NOT NULL,
-    customer_name varchar NOT NULL,
-    hall_name varchar NOT NULL
+    booking_id SERIAL PRIMARY KEY,
+    customer_name VARCHAR(255) NOT NULL,
+    hall_name VARCHAR(255) NOT NULL,
+    booking_date DATE NOT NULL,
+    start_time TIME NOT NULL,
+    end_time TIME NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
